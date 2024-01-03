@@ -133,7 +133,7 @@ if not DEBUG:
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Utilizando pathlib.Path
-
+STATICFILES_DIRS = [Path(BASE_DIR) / 'Aplicaciones.Pagina/static']
 
 
 
